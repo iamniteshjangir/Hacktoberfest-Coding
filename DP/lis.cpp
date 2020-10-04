@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -20,6 +21,7 @@ int lis(int *arr, int n)
     for (int i=0; i<n; i++) {
         ans = max(output[i], ans);
     }
+//     deletinh output array
     delete []output;
     return ans;
 }
